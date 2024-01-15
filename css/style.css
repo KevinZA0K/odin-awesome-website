@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header { 
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    border:1px blueviolet solid;
+    align-items: center;
+    height:120px;
+}
+
+nav ul{
+    display:flex;
+    border: 1px green solid;
+    gap:45px;
+}
+
+nav ul li{
+    border:1px red solid;
+    list-style: none; 
+}
+
+.imagen{
+    width:40%;
+}
+
+.zonauno {
+    background-color: #1F2937;
+    color: white;
+    border: 1px lightcoral solid;
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+  
+}
+
+.zonauno #l1 {
+    border: 1px white ridge;
+    display:flex;
+    flex-flow: column wrap;
+    
+}
+
+.zonauno #l1 button {
+    height: 50px;
+    width:100px;
+    border-radius: 10px;
+    background-color: #5f9ea0;
+    border: 2px #447a7c solid;
+    margin-left:180px;
+}
+.zonauno #l2 {
+    border:1px gold ridge;
+    display:flex;
+    justify-content: space-around;
+    width:60%;
+    
+    
+}
+.awesometitle {
+    font-size: 48px;
+    font-style: oblique ;
+}
+
+.awesomesubtext{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
